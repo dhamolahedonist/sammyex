@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="exchange.css" />
+  </head>
+  <body>
+    <section id="timer">
+      <div class="container">
+        <h1>SAMMY EX</h1>
+        <div class="contain-box">
+          <input id="rate" type="number" placeholder="Exchange Rate" />
+          <input id="amount" type="number" placeholder="Enter Amount" />
+        </div>
+        <div class="box">
+          <button
+            id="converter"
+            type="button"
+            class="btn btn-box-1"
+            onclick="get_value()"
+          >
+            SUBMIT
+          </button>
+        </div>
+        <div class="contain-box">
+          <input id="value" type="number" class="disabled" disabled />
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="exchange.js"></script>
+</html>
